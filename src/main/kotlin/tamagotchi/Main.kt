@@ -8,6 +8,7 @@ object GameState {
     @Volatile var selected  = 0
     @Volatile var message   = ""
     @Volatile var msgTicks  = 0
+        //TODO: add some value
 }
 
 val isWindows = System.getProperty("os.name").toLowerCase().contains("win")
